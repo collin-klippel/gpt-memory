@@ -112,6 +112,7 @@ const styles = StyleSheet.create({
   app: {
     flex: 1,
     padding: 16,
+    paddingVertical: 42,
     maxWidth: 500,
     margin: "auto",
   },
