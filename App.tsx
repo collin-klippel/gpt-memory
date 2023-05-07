@@ -97,7 +97,11 @@ export default function App(): JSX.Element {
       </Text>
       <View style={styles.gameBoard}>
         {gameCards.map((card) => (
-          <Card card={card} onPress={() => handleCardPress(card)} />
+          <Card
+            card={card}
+            onPress={() => handleCardPress(card)}
+            key={card.id}
+          />
         ))}
       </View>
     </View>

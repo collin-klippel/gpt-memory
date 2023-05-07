@@ -15,7 +15,6 @@ export default function Card({ card, onPress }: CardProps) {
   return (
     <TouchableOpacity
       disabled={card.isMatched}
-      key={card.id}
       onPress={onPress}
       style={[
         styles.cardContainer,
