@@ -92,8 +92,8 @@ export default function App(): JSX.Element {
     <View style={styles.app}>
       <Text style={styles.title}>GPT Memory</Text>
       <Text style={styles.description}>
-        A cross-platform memory game app created in 2 hours with help from
-        ChatGPT.
+        A cross-platform memory game app created in 2 hours with help from a
+        popular chat-based generative pre-trained transformer model.
       </Text>
       <View style={styles.gameBoard}>
         {gameCards.map((card) => (
