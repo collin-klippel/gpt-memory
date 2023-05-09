@@ -22,8 +22,8 @@ export default function App(): JSX.Element {
   };
 
   /**
-   * Check to see if two `isFaceUp` cards have the same `backgroundColor`. If so, remove
-   * them from the card set.
+   * Check to see if two `isFaceUp` cards have the same `matchProperty`. If so,
+   * remove them from the card set.
    *
    * If the game is over, reset it. Otherwise go back to the last stable version.
    */
